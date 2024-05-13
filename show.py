@@ -2,7 +2,9 @@ import open3d as o3d
 import numpy as np
 
 
-point_cloud_data = np.load('part1.npy')
+new_point = np.array([[0, 0, 0]])
+point_cloud_data = np.load('./point_cloud/part1.npy')
+point_cloud_data = np.concatenate((point_cloud_data, new_point), axis=0)
 print(point_cloud_data.shape)
 
 # Setting visualization parameters
