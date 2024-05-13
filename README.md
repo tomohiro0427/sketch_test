@@ -1,4 +1,4 @@
-#Point CLoud to sketch
+# Point CLoud to sketch
 
 ```
 python cannyEdge.py
