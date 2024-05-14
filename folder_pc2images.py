@@ -80,7 +80,7 @@ def main():
             del ctr
             del vis
 
-            # 進捗表示の更新
+            # 進捗表示の更新do
             tqdmbar.update(1)
 
 if __name__== "__main__":
